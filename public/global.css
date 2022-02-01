@@ -1,7 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Space+Mono&display=swap');
 body {
 	color: #333;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color:powderblue;
+    background-color: #11001A;
+    font-family: 'Space Mono', monospace;
 }
+
 
