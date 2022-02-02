@@ -100,7 +100,7 @@
         <tr>
             <td><button on:click={() => onclicked("0")}>0</button></td>
             <td><button on:click={() => onclicked(".")}>.</button></td>
-            <td><button on:click={() => clickEQUALS()} colspan="2">=</button></td>
+            <td colspan="2"><button on:click={() => clickEQUALS()}>=</button></td>
         </tr>
     </table>
 </main>
@@ -110,22 +110,28 @@
     font-size: 10vw;
     width: calc(100vw * 94.5/100); 
     height: calc(100vw/5);
-    margin-left: 1vw;
-    margin-right: 1vw;
-    margin-top: 1vw;
     background-color: #380154;
     color: powderblue;
     border: none;
+    font-family: 'Space Mono', monospace;
+    margin: 1vw 3vw;
 }
 button{
-    height: calc(100vw/6 - 3vw);
-    margin: 1vw 1vw 1vw 1vw;
+    height: calc(100%);
     width: calc(100vw/4 - 3vw);
     font-family: 'Space Mono', monospace;
     font-size: 10vw;
     background-color: #380154;
     color: powderblue;
-    border-style: dotted;
-    border-color: tomato;
+    border: 3px dotted tomato;
+    text-align: center;
+}
+button:hover{
+    border-style:groove;
+    text-shadow: #FC0 1px 0 15px;
+    box-shadow: #FC0 1px 0 10px;
+}
+td,tr,table{
+    margin: 0.1vw 3vw 1vw 3vw;
 }
 </style>
